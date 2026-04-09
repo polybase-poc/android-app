@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "projectName": "android-app",
+  "organization": "polybase-poc",
+  "team": "mobile",
+  "rules": [
+    ".claude/rules/security.md",
+    ".claude/rules/code-quality.md",
+    ".claude/rules/git-workflow.md"
+  ],
+  "statusline": {
+    "enabled": true,
+    "format": "[android-app] {branch} {status}"
+  },
+  "integrations": {
+    "github": {
+      "enabled": true,
+      "org": "polybase-poc",
+      "repo": "android-app"
+    }
+  }
+}
